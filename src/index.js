@@ -1,8 +1,10 @@
 import React from 'react';
 import { render } from 'react-dom';
 
+import Title from './components/Title';
+
 const App = () => (
-  <h1>Title</h1>
+  <Title />
 );
 
 render(<App />, document.getElementById('root'));
