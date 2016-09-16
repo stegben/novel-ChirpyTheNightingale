@@ -1,3 +1,5 @@
 .title {
-  color: rgba(255, 0, 255, 0.5);
+  background-image: url('./images/night-sky.png');
+  height: 100vh;
+  color: rgba(255, 0, 255, 1.0);
 }
