@@ -1,0 +1,19 @@
+{
+  "name": "novel-chirpy-the-nightingale",
+  "version": "0.1.0",
+  "description": "cph's first multimedia novel",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stegben/novel-ChirpyTheNightingale.git"
+  },
+  "author": "NinRen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stegben/novel-ChirpyTheNightingale/issues"
+  },
+  "homepage": "https://github.com/stegben/novel-ChirpyTheNightingale#readme"
+}
