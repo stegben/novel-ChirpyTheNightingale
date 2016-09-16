@@ -20,7 +20,7 @@ app.use(require('webpack-dev-middleware')(compiler, {
 app.use(require('webpack-hot-middleware')(compiler)); // 跟前端緊密聯繫
 
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'index.html'));
+  res.sendFile(path.join(__dirname, 'index.dev.html'));
 });
 
 app.listen(DEV_PORT, 'localhost', (err) => {
