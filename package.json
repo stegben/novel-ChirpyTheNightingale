@@ -7,7 +7,8 @@
     "lint": "eslint src script",
     "start": "node devServer.js",
     "build": "NODE_ENV=production webpack --config webpack.config.prod.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "sh ./script/publish.sh"
   },
   "repository": {
     "type": "git",
