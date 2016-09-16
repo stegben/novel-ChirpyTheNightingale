@@ -34,3 +34,6 @@ node_modules
 
 # nyc code coverage
 .nyc_output
+
+# distributions
+public
