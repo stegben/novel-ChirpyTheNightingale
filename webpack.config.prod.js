@@ -35,7 +35,7 @@ module.exports = {
     loaders: [
       {
         test: /\.(png|jpg|jpeg|gif|svg)$/,
-        loaders: ['url-loader'],
+        loaders: ['file?name=images/[sha512:hash:base64:7].[ext]'],
       },
       {
         test: /\.js$/,
