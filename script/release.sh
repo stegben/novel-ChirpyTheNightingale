@@ -1,6 +1,8 @@
-git checkout gh-pages
+git branch -D gh-pages
+git checkout -b gh-pages
+rm -rf public
 npm run build
 git add -f public
 git commit -m "publish"
-git push origin gh-pages
+git push -f origin gh-pages
 git checkout master
