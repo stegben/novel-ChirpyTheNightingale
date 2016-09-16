@@ -3,6 +3,14 @@
   "env": {
     "development": {
       "plugins": ["react-hot-loader/babel"]
+    },
+    "production": {
+        "presets": ["react-optimize"],
+        "plugins": [
+            "transform-remove-console",
+            "transform-remove-debugger",
+            "dev-expression"
+        ]
     }
   }
 }
