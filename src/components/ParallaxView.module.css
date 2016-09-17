@@ -1,0 +1,35 @@
+.parallaxContainer {
+  position: relative;
+  height: 100vh;
+  background: url('./images/night-sky.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.mountain {
+  position: absolute;
+  background: url('./images/mountain.png');
+  background-size: cover;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+}
+
+.tree {
+  position: absolute;
+  background: url('./images/tree.png');
+  background-size: cover;
+  z-index: 3;
+  height: 100%;
+  width: 100%;
+}
+
+.chirpy {
+  position: absolute;
+  background: url('./images/chirpy.png');
+  background-size: cover;
+  z-index: 4;
+  height: 100%;
+  width: 100%;
+}
