@@ -1,9 +1,13 @@
 import React from 'react';
 
 import Title from './Title';
+import FirstParagraph from './FirstParagraph';
 
 const Novel = () => (
-  <Title />
+  <div>
+    <Title />
+    <FirstParagraph />
+  </div>
 );
 
 export default Novel;

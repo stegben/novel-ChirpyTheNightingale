@@ -1,0 +1,15 @@
+.textBlock {
+  background: rgba(0, 0, 0, 1.0);
+  z-index: 1;
+  padding: 0;
+  margin: 0;
+}
+
+.text {
+  padding: 0;
+  margin-top: 2em;
+  line-height: 170%;
+  text-align: left;
+  color: rgba(200, 200, 200, 1.0);
+  font-size: 1.5em;
+}
